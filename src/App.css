@@ -1,0 +1,14 @@
+body{
+  font-family: sans-serif;
+  color: white;
+  display: flex;
+  padding: 20px;
+  background-color: black;
+  display: flex;
+  margin: auto;
+  align-items: center;
+
+}
+.container{
+  color: white;
+}
