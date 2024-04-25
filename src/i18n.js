@@ -7,6 +7,7 @@ i18n
   .use(initReactI18next)
   .init({
     debug: true,
+    fallbackLng:"en",
     lng: 'en', // Change 'lang' to 'lng' for specifying the default language
     resources: {
       en: {
@@ -16,7 +17,7 @@ i18n
       },
       hi: {
         translation: {
-          greeting: 'नमस्ते, स्वागत है!',
+         greeting: 'नमस्ते, स्वागत है!',
         },
       },
       fr: {
